@@ -45,7 +45,7 @@ st.divider()
 st.caption("Yönetici Girişi")
 sifre = st.text_input("Yönetici panelini açmak için şifreyi girin:", type="password")
 
-if sifre == "Ekospotseslendirme2026":
+if sifre == st.secrets["yonetici_sifresi"]:
     st.success("Şifre doğru! Yönetici paneline hoş geldiniz.")
     
     # İndirme Butonu
