@@ -5,7 +5,7 @@ import os
 DOSYA_ADI = "ekospot_teknisyen.xlsx"
 
 st.set_page_config(page_title="Ekospot Teknisyenleri", layout="centered")
-st.title("Ekospot Yarışması Teknisyen Kaydı")
+st.title("Ekospot Yarışması Teknisyenleri")
 
 if not os.path.exists(DOSYA_ADI):
     bos_tablo = pd.DataFrame(columns=["Grup Adı", "Ad", "Soyad", "Telefon"])
