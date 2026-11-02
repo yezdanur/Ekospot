@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import os
 
-DOSYA_ADI = "ekospot_kayit.xlsx"
+DOSYA_ADI = "ekospot_teknisyen.xlsx"
 
-st.set_page_config(page_title="Ekospot Teknisyen Kaydı", layout="centered")
+st.set_page_config(page_title="Ekospot Teknisyenleri", layout="centered")
 st.title("Ekospot Yarışması Teknisyen Kaydı")
 
 if not os.path.exists(DOSYA_ADI):
